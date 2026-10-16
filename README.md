@@ -1,48 +1,62 @@
-# Awesome-AI-Workspace-RAG
+<div align="center">
 
-## Top AI Workspace & RAG Ecosystem
+<img src="./assets/banner.svg" alt="Awesome AI Workspace &amp; RAG Banner" width="100%" />
 
+# 🧠 Awesome AI Workspace & RAG Ecosystem ⚡
 
+**Curated Showcase of Top SaaS Platforms & Open-Source Infrastructure for Enterprise Search, Agentic Workspaces & Local RAG**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workspace-RAG?style=social)](https://github.com/ishandutta2007/Awesome-AI-Workspace-RAG/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-*Focused on Local RAG Workspaces, Enterprise Knowledge Retrieval & Agent-Augmented Chat*  
+<p align="center">
+  <b>Enterprise Knowledge Retrieval</b> •
+  <b>Agent-Augmented Chat</b> •
+  <b>Local AI Workspaces</b> •
+  <b>Air-Gapped RAG Pipelines</b> •
+  <b>Hybrid Vector Search</b>
+</p>
 
-**Last updated: October 2026**
+*Last updated: October 2026*
 
+---
 
+</div>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Workspace & RAG**. These tools enable organizations to build private, context-aware AI workspaces that retrieve from internal documents, connected applications, and knowledge bases—keeping sensitive data on-premises while delivering reliable, citation-backed answers.
+## 📖 Overview & SEO Summary
 
+This repository is the authoritative index tracking notable **SaaS platforms** and production-grade **open-source frameworks** for **AI Workspace & Retrieval-Augmented Generation (RAG)**. 
 
+Modern AI workspaces bridge Large Language Models (LLMs) with proprietary enterprise knowledge—documents, databases, SaaS applications, APIs, and communication archives. By employing **semantic vector embeddings**, **hybrid keyword search (BM25)**, **layout-aware document chunking**, **permissions-aware Access Control Lists (ACLs)**, and **multi-agent orchestration**, these solutions allow teams to build context-aware, air-gapped, or cloud-hosted AI environments with zero data leakage and verifiable citation-backed answers.
 
-**Examples** include ChatGPT Enterprise, Claude Enterprise, Microsoft Copilot, Glean, Notion AI, Perplexity Enterprise, Cohere Coral, Writer.com, Jasper Enterprise, and Moveworks (the category leaders).
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Open-Source RAG Workspaces & Engines](#top-open-source-rag-workspaces--engines)
+  - [Frameworks & Micro-Engines for Custom Pipelines](#frameworks--micro-engines-for-custom-pipelines)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local RAG, and open workspace infrastructure—ideal for teams seeking transparent, vendor-independent AI workspaces.
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The enterprise AI Workspace and Retrieval-Augmented Generation (RAG) market is estimated at approximately **$2.5B to $4B** in 2024–2026 and is projected to expand toward **$10B–$43B+ by the early 2030s** at an estimated 25–40% CAGR. 
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+The sector is **moderately to highly fragmented** rather than winner-take-all: while mega-cap platform providers (Microsoft Copilot, OpenAI, Anthropic) dominate horizontal desktop suites, specialized enterprise search engines (Glean, Moveworks), verticalized domain copilots, and rapidly advancing open-source RAG pipelines maintain substantial market differentiation and prevent complete platform consolidation.
 
+---
 
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The enterprise AI Workspace and Retrieval-Augmented Generation (RAG) market is estimated at approximately **$2.5B to $4B** in 2024–2026 and is projected to expand toward **$10B–$43B+ by the early 2030s** at a 25–40% CAGR. The sector is **moderately to highly fragmented** rather than winner-take-all: while mega-cap platform providers (Microsoft Copilot, OpenAI, Anthropic) dominate horizontal workplace suites, specialized enterprise search engines (Glean, Moveworks), vertical copilots, and rapidly advancing open-source RAG pipelines maintain substantial market differentiation and avoid complete platform consolidation.
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS / Hosted Enterprise Platforms
 
 | Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Trial Limits | Description & Key Features |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,114 +71,96 @@ The enterprise AI Workspace and Retrieval-Augmented Generation (RAG) market is e
 | **[Writer.com](https://writer.com/)** | ~$1.9B Valuation | $18 / user / month (Team plan for up to 5 users, billed monthly or annually) | **Free trial available**: 14-day free trial on the Team tier with access to Palmyra LLMs, document Q&A, and style guides. | Enterprise AI writing and knowledge platform with AI-powered document Q&A, style guides, and brand-consistent content generation. |
 | **[Jasper Enterprise](https://www.jasper.ai/)** | ~$1.5B Valuation | $39 / seat / month (Creator plan, billed annually at $49/mo monthly; Pro tier is $59/seat/mo) | **Free trial available**: 7-day free trial on Pro and Creator plans providing full access to brand voice and workspace features. | Enterprise AI marketing platform with brand voice, knowledge base, campaign workflows, and Jasper Chat for grounded Q&A. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Below is a ranked collection of production-ready open-source AI workspaces, RAG engines, and local knowledge base platforms. All entries are sorted strictly in descending order by GitHub stargazers.
 
+### Top Open-Source RAG Workspaces & Engines
 
+1. **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+   **Leading visual AI workflow and RAG orchestration platform** (Apache-2.0 with commons clause). Combines drag-and-drop workflow canvas, comprehensive RAG pipeline with multimodal PDF/DOCX chunking, autonomous agent sandbox, and deep LLMOps observability (Opik, Langfuse, Arize Phoenix). Supports any OpenAI-compatible LLM, local models via Ollama, and one-click deployment via Docker Compose.
 
-- **[AnythingLLM (Mintplex Labs)](https://github.com/Mintplex-Labs/anything-llm)**  
+2. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+   **Extensible, feature-rich, user-friendly self-hosted AI interface** (BSD-3-Clause). Features native multi-model support, localized document RAG with hybrid search, granular Role-Based Access Control (RBAC), custom pipelines, web search integration, and 100% offline air-gapped operation with Ollama.
 
-  **The most feature-complete open-source all-in-one AI workspace with local RAG and agent capabilities** (MIT) . **45,000+ GitHub stars**—one of the most popular self-hosted AI applications . **The all-in-one AI application, tool suite, and API for RAG & Agents for Docker & Desktop** . **Turn any document, resource, or piece of content into context that any LLM can use as references during chatting** . **Workspaces** function like threads with containerized documents—can share documents but keep context isolated per workspace . **Supports commercial and open-source LLMs** (OpenAI, Anthropic, Google Gemini, Ollama, LM Studio, LocalAI, Together AI, Perplexity, OpenRouter, Mistral, Groq) and **vector databases** (LanceDB default, Pinecone, Chroma, Weaviate, QDrant, Milvus, Zilliz) . **Key features**: **Multi-user support with permissions** (Docker only), **custom AI Agents**, **no-code AI Agent builder**, **full MCP compatibility**, **multi-modal support**, **embeddable chat widget** (Docker only), **in-chat citations**, and **full Developer API** . **Desktop version** for one-click local install (Mac, Windows, Linux) with full privacy—**no multi-user support, no public internet exposure** . **Docker version** for team deployment with multi-user management, embeddable widgets, and web-accessible UI .
+3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+   **Open-source RAG engine built on deep document understanding** (Apache-2.0). Employs the DeepDoc layout-aware parser to extract complex tables, multi-column PDFs, and scanned images. Integrates Elasticsearch/Infinity BM25 and dense vector search with rerankers, providing traceable sentence-level citations and visual agent graph flows.
 
+4. **[LobeChat](https://github.com/lobehub/lobe-chat)** [![GitHub stars](https://img.shields.io/github/stars/lobehub/lobehub?style=social&color=white)](https://github.com/lobehub/lobehub/stargazers)  
+   **Modern, visually polished open-source AI chat framework** (LobeHub Community License). Offers comprehensive multi-provider LLM support, native knowledge base management with vector embedding search, an extensible plugin marketplace, artifact rendering, and one-click deployment to Vercel or Docker.
 
+5. **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+   **All-in-one local AI workspace with zero-setup RAG & autonomous agents** (MIT). Provides isolated containerized workspaces that prevent cross-document context contamination. Features multi-user RBAC (Docker), no-code agent builder, MCP protocol compatibility, embeddable web chat widgets, and support for LanceDB, Chroma, Pinecone, and Qdrant.
 
-- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)**  
+6. **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
+   **Drag-and-drop UI for building customized LLM apps and RAG chains** (MIT). Built with LangChain and LlamaIndex primitives, allowing visual creation of conversational RAG agents, memory persistence, vector store querying, and webhooks with zero boilerplate code.
 
-  **The most mature open-source enterprise search and AI assistant platform** (MIT for core) . **The leading open-source Glean alternative.** Features **40+ connectors** (Slack, Google Drive, Confluence, Jira, Notion, GitHub, SharePoint, Teams, and more), **permission-aware retrieval** that mirrors source-system ACLs, **Onyx Assistant** for natural-language Q&A with citations, **custom assistants** with scoped knowledge and personas, and **multi-LLM support** . **Uses contextual retrieval, advanced RAG, hybrid search, and AI-generated knowledge graphs** for reliable responses with least hallucinations . **Self-hosted via Docker Compose or Kubernetes.** Used by Netflix, Ramp, and other enterprises. Enterprise edition adds SSO, RBAC, and advanced analytics.
+7. **[LibreChat](https://github.com/danny-avila/LibreChat)** [![GitHub stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)  
+   **Enhanced open-source ChatGPT clone with multi-provider RAG & agents** (MIT). Features conversation branching, multimodal uploads, code interpreter execution, multi-user authentication, and native integration with custom endpoints and local embedding models.
 
+8. **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** [![GitHub stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers)  
+   **Local knowledge base Q&A application built with LangChain and Milvus/Chroma** (Apache-2.0). Designed for full offline enterprise deployments, supporting Chinese & English document extraction, local LLM fine-tuning weights, and Milvus/FAISS vector databases.
 
+9. **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+   **Personal AI assistant and second brain that searches your notes and documents** (AGPL-3.0). Integrates with Obsidian, Emacs, web search, PDF, Markdown, and Notion documents, acting as an offline or self-hosted conversational search companion.
 
-- **[Dify](https://github.com/langgenius/dify)**  
+10. **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
+    **Mature open-source enterprise search and Glean alternative** (MIT core). Connects to 40+ workplace data sources (Slack, Google Drive, Confluence, Jira, GitHub, Notion) while rigorously inheriting native system Access Control Lists (ACLs). Employs hybrid search, automated knowledge graphs, and verifiable inline citations.
 
-  **Open-source LLM app development platform with RAG, agents, and visual workflows** (Apache-2.0 with conditions) . **157,000+ GitHub stars** . **Combines AI workflow, RAG pipeline, agent capabilities, model management, and observability** (Opik, Langfuse, Arize Phoenix) . **Visual canvas** for building and testing AI workflows, **comprehensive model support** (GPT, Mistral, Llama3, any OpenAI-compatible), **Prompt IDE**, **RAG pipeline** with PDF/PPT extraction, **autonomous agents with sandbox**, and **LLMOps monitoring** . **Publish as app, API, embed, or MCP-compatible tool.** Deploy via Docker Compose with minimum **2 CPU cores and 4 GiB RAM** . **The most complete open-source alternative to commercial LLMOps platforms** for teams wanting visual workflow building.
+11. **[STORM](https://github.com/stanford-oval/storm)** [![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers)  
+    **Stanford's LLM system for automated long-form synthesis and multi-perspective research** (MIT). Uses multi-turn RAG dialogue simulations with automated citation retrieval to generate comprehensive Wikipedia-like research reports on any topic from scratch.
 
-
-
-- **[RAGFlow](https://github.com/infiniflow/ragflow)**  
-
-  **Open-source RAG engine built around deep document understanding** (Apache-2.0) . **55,000+ GitHub stars** . **Ingests PDFs, Word docs, scanned images, and tables, chunks them with the DeepDoc parser, indexes embeddings in Elasticsearch, and serves grounded LLM Q&A with traceable citations** . **DeepDoc parser** handles PDFs, DOCX, XLSX, PPTX, scanned images, HTML, Markdown, and tables with layout-aware chunking—**best in class for PDFs/tables** . **Hybrid retrieval** (Elasticsearch BM25 + dense vector search with rerankers), **paragraph-level citations**, **multi-tenant**, and **agent workflows** with visual flow builder . **Ingestion Pipeline** (v0.21.0+) allows custom ETL workflows with Parser, Transformer, and Indexer stages . **Pick RAGFlow when document parsing fidelity matters most** .
-
-
-
-- **[LobeChat](https://github.com/lobehub/lobe-chat)**  
-
-  **Modern open-source AI chat framework with multi-provider support** (LobeHub Community License) . **62,000+ GitHub stars** . Features **plugin system**, **knowledge base**, **artifacts**, and **one-click deployment** (Vercel, Docker). **The most visually polished open-source chat interface** .
-
-
-
-- **[Open WebUI](https://github.com/open-webui/open-webui)**  
-
-  **Extensible, feature-rich, user-friendly self-hosted AI platform** (BSD-3-Clause with branding clause) . **150,000+ GitHub stars** . Features **multi-model support** (Ollama, OpenAI-compatible APIs), **RAG document integration**, **RBAC**, **pipelines/plugins**, and **offline operation**. **The most widely deployed open-source AI interface**—runs entirely offline with Ollama or connects to any OpenAI-compatible backend .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[LibreChat](https://github.com/danny-avila/LibreChat)** — Enhanced ChatGPT clone with multi-provider support, agents, code interpreter, and conversation branching (MIT) . **42,000+ GitHub stars** .
-
-- **[Khoj](https://github.com/khoj-ai/khoj)** — Open-source AI personal assistant that searches the web and your documents (AGPL-3.0) . **25,000+ GitHub stars**.
-
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** — See above.
-
-- **[Haystack (deepset)](https://github.com/deepset-ai/haystack)** — Production-ready NLP framework with typed pipelines for RAG (Apache-2.0) . **21,000+ GitHub stars** .
-
-- **[SemantixRAG](https://pypi.org/project/semantixrag/)** — Open-source RAG platform with GraphRAG, PII scanning, and observability (PyPI) . Features **Neo4j knowledge graph**, **OpenSearch hybrid retrieval**, **Microsoft Presidio PII detection**, and **GDPR DSAR automation** .
-
-- **[Velites](https://pypi.org/project/velites/)** — Minimal, local-first AI workbench with SQLite-powered RAG (Apache-2.0, pre-alpha) . **Single-process model on distroless container**—no external database servers .
-
-- Community **n8n** workflows for RAG pipeline automation and workspace integration.
-
-
-
-**Frameworks for building custom systems**: Combine **AnythingLLM** for all-in-one local RAG workspaces with **Onyx** for permission-aware enterprise search, **Dify** for visual workflow building, **RAGFlow** for high-fidelity document parsing, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade AI workspace platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI workspace platforms handling internal documents must comply with data protection regulations (GDPR, CCPA, etc.) and respect source-system permissions.
-
-- **Open-source AI workspaces are mature and production-ready.** AnythingLLM provides all-in-one local RAG with agents and multi-user support . Onyx delivers permission-aware enterprise search with 40+ connectors . Dify combines visual workflows, RAG, and agents with 157K+ stars . RAGFlow offers best-in-class document parsing . **These are genuine alternatives to Glean and ChatGPT Enterprise.**
-
-- **Workspace isolation is a core feature.** AnythingLLM's workspaces keep document contexts separate—"they do not talk to each other so you can keep your context for each workspace clean" . **Mixing documents across topics dilutes RAG relevance** .
-
-- **Desktop vs Docker matters for team deployment.** AnythingLLM Desktop is **single-player only**—no multi-user support, no public internet exposure . **Docker version** adds multi-user management, embeddable widgets, and web-accessible UI . **Choose based on whether one person or a team will use it.**
-
-- **Document parsing quality determines answer quality.** RAGFlow's DeepDoc parser handles complex tables, scanned documents, and layout-aware chunking that simpler parsers fail on . **If your knowledge lives in PDFs and legacy documents, parsing is the bottleneck.**
-
-- Self-hosted open-source solutions require proper security hardening, document storage encryption, and ongoing maintenance. **RAG systems are only as good as their retrieval**—test with real queries before production deployment.
-
-
+12. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+    **Production-ready Python framework for building custom RAG pipelines and search systems** (Apache-2.0). Features strongly-typed pipeline components, state-of-the-art document splitters, hybrid reranking, and enterprise observability.
 
 ---
 
+### Frameworks & Micro-Engines for Custom Pipelines
 
+- **[SemantixRAG](https://pypi.org/project/semantixrag/)** — Open-source RAG platform with GraphRAG, Neo4j knowledge graphs, OpenSearch hybrid retrieval, Microsoft Presidio PII scanning, and GDPR DSAR compliance automation.
+- **[Velites](https://pypi.org/project/velites/)** — Minimal, local-first AI workbench with SQLite-powered RAG in a single-process distroless container (Apache-2.0).
+- **n8n Community Workflows** — Open workflow automation nodes for building custom multi-step ingestion, vectorization, and webhook notification RAG flows.
 
-**Made for AI engineers, platform teams, and developers building transparent AI workspace solutions.**  
+---
 
-Let's make AI Workspace & RAG more open, data-driven, and context-aware.
+## 🤝 How to Contribute
+
+Contributions are welcome! Help keep this ecosystem up-to-date:
+
+1. 🍴 Fork the repository.
+2. 📝 Add or edit entries in `README.md` following the standard table or list format.
+3. 🔗 Ensure all links are official, factual, and include accurate licenses and pricing/trial tiers.
+4. 🚀 Submit a Pull Request with a clear description of your addition.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated AI Workspace & RAG directory saved you research hours or helped your engineering team choose the right platform, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with colleagues and platform teams.
+- ☕ **Buy a coffee & sponsor**: Support continuous maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Workspace-RAG&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Workspace-RAG&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated index** — provided for informational purposes without formal commercial endorsement.
+- Organizations deploying enterprise AI workspaces handling sensitive documents must ensure compliance with applicable regulations (GDPR, HIPAA, SOC 2) and respect granular source-system access controls (ACLs).
+- **Self-hosted RAG is production-ready:** Solutions like Dify, Open WebUI, RAGFlow, Onyx, and AnythingLLM provide robust, privacy-first alternatives to closed-box hosted assistants.
+- Always validate chunking fidelity, retriever precision, and embedding latency against representative real-world document corpora before rolling out to production.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for AI engineers, data platform architects, and developers shaping the future of context-aware intelligence.</b>
+</div>

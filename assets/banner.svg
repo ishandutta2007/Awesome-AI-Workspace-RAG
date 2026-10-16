@@ -1,0 +1,179 @@
+<svg width="100%" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0e172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+      fill: url(#textGrad);
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.2px;
+      fill: #94a3b8;
+    }
+    .badge-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #e0e7ff;
+    }
+
+    /* Ambient dynamic / animated pulses in background */
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(-10px, 8px); opacity: 0.65; }
+    }
+    @keyframes waveFlow {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -120; }
+    }
+    @keyframes orbitNode {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes pulsePill {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.6)); }
+    }
+
+    .ambient-orb-1 {
+      animation: pulseGlow 7s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .ambient-orb-2 {
+      animation: pulseGlow 9s ease-in-out infinite reverse;
+      transform-origin: center;
+    }
+    .flowing-stream {
+      stroke-dasharray: 8 12;
+      animation: waveFlow 4s linear infinite;
+    }
+    .float-card-1 {
+      animation: orbitNode 5s ease-in-out infinite;
+    }
+    .float-card-2 {
+      animation: orbitNode 6s ease-in-out infinite 1s;
+    }
+    .float-card-3 {
+      animation: orbitNode 5.5s ease-in-out infinite 2s;
+    }
+    .pill-item {
+      animation: pulsePill 3s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="1000" height="240" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1000" height="240" rx="16" stroke="rgba(255, 255, 255, 0.08)" stroke-width="2"/>
+
+  <!-- Background Dynamic Ambient Orbs -->
+  <circle class="ambient-orb-1" cx="820" cy="60" r="140" fill="#6366f1" opacity="0.3" filter="url(#glow)"/>
+  <circle class="ambient-orb-2" cx="120" cy="180" r="130" fill="#a855f7" opacity="0.22" filter="url(#glow)"/>
+  <circle class="ambient-orb-1" cx="500" cy="220" r="100" fill="#0ea5e9" opacity="0.18" filter="url(#glow)"/>
+
+  <!-- Background Animated Data Stream / Flow Lines -->
+  <g opacity="0.25">
+    <path class="flowing-stream" d="M 0 50 Q 250 110, 500 50 T 1000 70" fill="none" stroke="#818cf8" stroke-width="2"/>
+    <path class="flowing-stream" d="M 0 190 Q 250 140, 500 190 T 1000 170" fill="none" stroke="#38bdf8" stroke-width="1.8"/>
+  </g>
+
+  <!-- Dynamic Graphic Chips / Floating Cards on the Right (Visualizing RAG Nodes) -->
+  <g transform="translate(680, 25)">
+    <!-- Node 1: Vector / Embeddings -->
+    <g class="float-card-1" transform="translate(40, 15)">
+      <rect width="210" height="42" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#3b82f6" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="20" cy="21" r="5" fill="#38bdf8"/>
+      <text x="36" y="26" class="badge-label">⚡ Multi-Modal RAG &amp; Vector DB</text>
+    </g>
+
+    <!-- Node 2: Autonomous Agents -->
+    <g class="float-card-2" transform="translate(10, 75)">
+      <rect width="240" height="42" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="20" cy="21" r="5" fill="#c084fc"/>
+      <text x="36" y="26" class="badge-label">🤖 Autonomous Agentic Workspaces</text>
+    </g>
+
+    <!-- Node 3: Enterprise Connectors -->
+    <g class="float-card-3" transform="translate(30, 135)">
+      <rect width="220" height="42" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="20" cy="21" r="5" fill="#34d399"/>
+      <text x="36" y="26" class="badge-label">🔒 Permissions &amp; ACL Knowledge</text>
+    </g>
+  </g>
+
+  <!-- Foreground Title and Meta (Always Crisp, Centered in Safe Left/Center Zone) -->
+  <g transform="translate(50, 0)">
+    <!-- Header Topic Pill -->
+    <g class="pill-item" transform="translate(0, 36)">
+      <rect width="220" height="26" rx="13" fill="#6366f1" fill-opacity="0.2" stroke="#6366f1" stroke-opacity="0.4"/>
+      <text x="14" y="17" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">✦ CURATED ENTERPRISE ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="98" class="title-text">Awesome AI Workspace &amp; RAG</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="132" class="subtitle-text">Curated List of SaaS Platforms &amp; Open-Source Local RAG Infrastructure</text>
+
+    <!-- Feature tags row -->
+    <g transform="translate(0, 160)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="112" height="28" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="18" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">🏢 SaaS Leaders</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(122, 0)">
+        <rect width="138" height="28" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="18" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">💻 Self-Hosted RAG</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(270, 0)">
+        <rect width="130" height="28" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="18" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">🧠 Agent Workflows</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(410, 0)">
+        <rect width="140" height="28" rx="6" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="18" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">⚡ Local Privacy / Air-Gap</text>
+      </g>
+    </g>
+  </g>
+</svg>
