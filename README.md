@@ -9,7 +9,7 @@
 [![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jc4xtF58Ve)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workspace-RAG?style=social)](https://github.com/ishandutta2007/Awesome-AI-Workspace-RAG/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Workspace-RAG?style=social)](https://github.com/ishandutta2007/Awesome-AI-Workspace-RAG/stargazers)
 [![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
 <p align="center">
@@ -79,40 +79,40 @@ Below is a ranked collection of production-ready open-source AI workspaces, RAG 
 
 ### Top Open-Source RAG Workspaces & Engines
 
-1. **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+1. **[Dify](https://github.com/langgenius/dify)** [![GitHub_Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
    **Leading visual AI workflow and RAG orchestration platform** (Apache-2.0 with commons clause). Combines drag-and-drop workflow canvas, comprehensive RAG pipeline with multimodal PDF/DOCX chunking, autonomous agent sandbox, and deep LLMOps observability (Opik, Langfuse, Arize Phoenix). Supports any OpenAI-compatible LLM, local models via Ollama, and one-click deployment via Docker Compose.
 
-2. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+2. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
    **Extensible, feature-rich, user-friendly self-hosted AI interface** (BSD-3-Clause). Features native multi-model support, localized document RAG with hybrid search, granular Role-Based Access Control (RBAC), custom pipelines, web search integration, and 100% offline air-gapped operation with Ollama.
 
-3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+3. **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
    **Open-source RAG engine built on deep document understanding** (Apache-2.0). Employs the DeepDoc layout-aware parser to extract complex tables, multi-column PDFs, and scanned images. Integrates Elasticsearch/Infinity BM25 and dense vector search with rerankers, providing traceable sentence-level citations and visual agent graph flows.
 
-4. **[LobeChat](https://github.com/lobehub/lobe-chat)** [![GitHub stars](https://img.shields.io/github/stars/lobehub/lobehub?style=social&color=white)](https://github.com/lobehub/lobehub/stargazers)  
+4. **[LobeChat](https://github.com/lobehub/lobe-chat)** [![GitHub_Stars](https://img.shields.io/github/stars/lobehub/lobehub?style=social&color=white)](https://github.com/lobehub/lobehub/stargazers)  
    **Modern, visually polished open-source AI chat framework** (LobeHub Community License). Offers comprehensive multi-provider LLM support, native knowledge base management with vector embedding search, an extensible plugin marketplace, artifact rendering, and one-click deployment to Vercel or Docker.
 
-5. **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+5. **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
    **All-in-one local AI workspace with zero-setup RAG & autonomous agents** (MIT). Provides isolated containerized workspaces that prevent cross-document context contamination. Features multi-user RBAC (Docker), no-code agent builder, MCP protocol compatibility, embeddable web chat widgets, and support for LanceDB, Chroma, Pinecone, and Qdrant.
 
-6. **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
+6. **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub_Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
    **Drag-and-drop UI for building customized LLM apps and RAG chains** (MIT). Built with LangChain and LlamaIndex primitives, allowing visual creation of conversational RAG agents, memory persistence, vector store querying, and webhooks with zero boilerplate code.
 
-7. **[LibreChat](https://github.com/danny-avila/LibreChat)** [![GitHub stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)  
+7. **[LibreChat](https://github.com/danny-avila/LibreChat)** [![GitHub_Stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)  
    **Enhanced open-source ChatGPT clone with multi-provider RAG & agents** (MIT). Features conversation branching, multimodal uploads, code interpreter execution, multi-user authentication, and native integration with custom endpoints and local embedding models.
 
-8. **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** [![GitHub stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers)  
+8. **[Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)** [![GitHub_Stars](https://img.shields.io/github/stars/chatchat-space/Langchain-Chatchat?style=social&color=white)](https://github.com/chatchat-space/Langchain-Chatchat/stargazers)  
    **Local knowledge base Q&A application built with LangChain and Milvus/Chroma** (Apache-2.0). Designed for full offline enterprise deployments, supporting Chinese & English document extraction, local LLM fine-tuning weights, and Milvus/FAISS vector databases.
 
-9. **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+9. **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub_Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
    **Personal AI assistant and second brain that searches your notes and documents** (AGPL-3.0). Integrates with Obsidian, Emacs, web search, PDF, Markdown, and Notion documents, acting as an offline or self-hosted conversational search companion.
 
-10. **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
+10. **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub_Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
     **Mature open-source enterprise search and Glean alternative** (MIT core). Connects to 40+ workplace data sources (Slack, Google Drive, Confluence, Jira, GitHub, Notion) while rigorously inheriting native system Access Control Lists (ACLs). Employs hybrid search, automated knowledge graphs, and verifiable inline citations.
 
-11. **[STORM](https://github.com/stanford-oval/storm)** [![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers)  
+11. **[STORM](https://github.com/stanford-oval/storm)** [![GitHub_Stars](https://img.shields.io/github/stars/stanford-oval/storm?style=social&color=white)](https://github.com/stanford-oval/storm/stargazers)  
     **Stanford's LLM system for automated long-form synthesis and multi-perspective research** (MIT). Uses multi-turn RAG dialogue simulations with automated citation retrieval to generate comprehensive Wikipedia-like research reports on any topic from scratch.
 
-12. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+12. **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
     **Production-ready Python framework for building custom RAG pipelines and search systems** (Apache-2.0). Features strongly-typed pipeline components, state-of-the-art document splitters, hybrid reranking, and enterprise observability.
 
 ---
