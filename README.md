@@ -30,77 +30,32 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
 
 
+## Sector Overview & Market Dynamics
+
+The enterprise AI Workspace and Retrieval-Augmented Generation (RAG) market is estimated at approximately **$2.5B to $4B** in 2024–2026 and is projected to expand toward **$10B–$43B+ by the early 2030s** at a 25–40% CAGR. The sector is **moderately to highly fragmented** rather than winner-take-all: while mega-cap platform providers (Microsoft Copilot, OpenAI, Anthropic) dominate horizontal workplace suites, specialized enterprise search engines (Glean, Moveworks), vertical copilots, and rapidly advancing open-source RAG pipelines maintain substantial market differentiation and avoid complete platform consolidation.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[ChatGPT Enterprise](https://openai.com/enterprise/)**  
-
-  Enterprise AI workspace with **unlimited GPT-4 access**, **SSO/SAML**, **admin console**, and **zero data retention**. Features **custom knowledge bases** and **GPTs** for team-specific workflows.
-
-
-
-- **[Claude Enterprise](https://www.anthropic.com/enterprise)**  
-
-  Enterprise access to Claude with **Projects** for document-grounded conversations, **SSO**, **admin controls**, and **higher rate limits**. Features **citation-backed answers** from uploaded documents.
-
-
-
-- **[Microsoft Copilot](https://www.microsoft.com/en-us/microsoft-copilot)**  
-
-  AI assistant integrated across Microsoft 365. Features **Graph-grounded responses** from organizational data, **Copilot Studio** for custom agents, and **enterprise data protection**.
-
-
-
-- **[Glean](https://www.glean.com/)**  
-
-  **The category-defining enterprise search and AI platform.** **100+ connectors**, permissions-aware retrieval that inherits source-system ACLs, and Glean Assistant for natural-language Q&A grounded in corporate knowledge. **No public pricing**—quoted annually, typically six figures for mid-market and above.
-
-
-
-- **[Notion AI](https://www.notion.so/product/ai)**  
-
-  AI features embedded across Notion's all-in-one workspace. **Q&A across your entire workspace**, AI writing assistance, autofill database properties, and AI meeting notes.
-
-
-
-- **[Perplexity Enterprise](https://www.perplexity.ai/enterprise)**  
-
-  Enterprise version of Perplexity's answer engine. Features **internal knowledge search combined with web search**, user management, and data retention controls. **$40/user/month** (annual) as of 2026.
-
-
-
-- **[Cohere Coral](https://cohere.com/coral)**  
-
-  Enterprise knowledge assistant with **RAG over internal documents**, connectors to common SaaS apps, and **citation-backed answers**. Built on Cohere's Command models.
-
-
-
-- **[Writer.com](https://writer.com/)**  
-
-  Enterprise AI writing and knowledge platform. Features **AI-powered document Q&A**, **style guides**, and **brand-consistent content generation**.
-
-
-
-- **[Jasper Enterprise](https://www.jasper.ai/)**  
-
-  Enterprise AI marketing platform with **brand voice**, **knowledge base**, and **campaign workflows**. Features **Jasper Chat** for grounded Q&A.
-
-
-
-- **[Moveworks](https://www.moveworks.com/)**  
-
-  AI-powered employee support platform with **knowledge retrieval** across IT, HR, and finance systems. Features **autonomous issue resolution** and **workflow automation**.
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Trial Limits | Description & Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Copilot](https://www.microsoft.com/en-us/microsoft-copilot)** | ~$3.1T Market Cap | $30 / user / month (Microsoft 365 Copilot add-on, billed annually) | **Free tier available**: Basic Copilot web chat is free for personal Microsoft accounts with daily prompt limits (up to ~30 turns/session); enterprise Graph-grounded Copilot offers no free tier (requires paid 365 business license). | AI assistant integrated across Microsoft 365. Features Graph-grounded responses from organizational data, Copilot Studio for custom agents, and enterprise data protection. |
+| **[ChatGPT Enterprise](https://openai.com/enterprise/)** | ~$157B Valuation | $25 / user / month (ChatGPT Team, billed annually at $30/mo monthly; Enterprise custom quoted ~60/user/mo) | **Free tier available**: Free plan includes access to GPT-4o with standard dynamic rate limits (switches to mini when capacity reached); does not include team knowledge bases or enterprise admin controls. | Enterprise AI workspace with unlimited GPT-4 access, SSO/SAML, admin console, zero data retention, and custom knowledge bases/GPTs for team workflows. |
+| **[Claude Enterprise](https://www.anthropic.com/enterprise)** | ~$40B Valuation | $25 / user / month (Claude Team, billed annually; Enterprise tier custom quoted ~30-50/user/mo) | **Free tier available**: Free Claude plan gives personal access to Claude 3.5 Sonnet with daily message caps (resets every 5 hours based on server load); does not include team Projects or enterprise admin controls. | Enterprise access to Claude with Projects for document-grounded conversations, SSO, admin controls, higher rate limits, and citation-backed answers. |
+| **[Notion AI](https://www.notion.so/product/ai)** | ~$10B Valuation | $8 / user / month (billed annually, or $10/user/mo monthly as an add-on to Notion plans) | **Free trial available**: 20 free AI responses per member for workspace evaluation before requiring the $8–$10/user/month add-on subscription. | AI features embedded across Notion's all-in-one workspace. Q&A across entire workspace, AI writing assistance, autofill database properties, and AI meeting notes. |
+| **[Perplexity Enterprise](https://www.perplexity.ai/enterprise)** | ~$9B Valuation | $40 / user / month (billed annually, or $40/user/mo monthly for Enterprise Pro) | **Free tier available**: Standard Perplexity Free plan provides unlimited basic quick searches and up to 5 Pro Searches (with file upload/reasoning) per day. | Enterprise answer engine combining internal knowledge search with web search, user management, SOC 2 compliance, and strict data retention controls. |
+| **[Cohere Coral](https://cohere.com/coral)** | ~$5.5B Valuation | $10 / month (Developer API pay-as-you-go starting baseline; enterprise Coral managed deployment custom quoted) | **Free trial available**: Cohere provides a free trial evaluation key with 1,000 free API calls/month for testing models and RAG endpoints. | Enterprise knowledge assistant with RAG over internal documents, connectors to common SaaS apps, and citation-backed answers built on Cohere Command models. |
+| **[Glean](https://www.glean.com/)** | ~$4.6B Valuation | ~$35 / user / month (mid-market/enterprise pricing, typically starting at $25,000–$60,000/year minimum contract value) | **No self-serve free tier or free trial**: Sales-led evaluation only via scheduled POCs for qualified enterprise deployments (typically 50–100+ seats minimum). | Enterprise search and AI platform with 100+ connectors, permissions-aware retrieval mirroring source-system ACLs, and Glean Assistant for corporate knowledge Q&A. |
+| **[Moveworks](https://www.moveworks.com/)** | ~$2.1B Valuation | ~$150 / user / year on AWS Marketplace (~$15–$45/employee/year enterprise-wide; min contract ~$50,000–$100,000/yr) | **No free tier or public trial**: Sales-led enterprise engagements only with guided pilot/PoC on custom request. | AI-powered employee support platform with knowledge retrieval across IT, HR, and finance systems, autonomous issue resolution, and workflow automation. |
+| **[Writer.com](https://writer.com/)** | ~$1.9B Valuation | $18 / user / month (Team plan for up to 5 users, billed monthly or annually) | **Free trial available**: 14-day free trial on the Team tier with access to Palmyra LLMs, document Q&A, and style guides. | Enterprise AI writing and knowledge platform with AI-powered document Q&A, style guides, and brand-consistent content generation. |
+| **[Jasper Enterprise](https://www.jasper.ai/)** | ~$1.5B Valuation | $39 / seat / month (Creator plan, billed annually at $49/mo monthly; Pro tier is $59/seat/mo) | **Free trial available**: 7-day free trial on Pro and Creator plans providing full access to brand voice and workspace features. | Enterprise AI marketing platform with brand voice, knowledge base, campaign workflows, and Jasper Chat for grounded Q&A. |
 
 
 
